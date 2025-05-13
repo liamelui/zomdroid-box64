@@ -479,6 +479,7 @@ void ApplyEnvFileEntry(const char* entryname)
     applyCustomRules();
 }
 
+EXPORTDYN
 void LoadEnvVariables()
 {
 #define INTEGER(NAME, name, default, min, max) box64env.name = default;

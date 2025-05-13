@@ -1,13 +1,13 @@
 #ifndef __DEBUG_H_
 #define __DEBUG_H_
 #include <stdint.h>
-#include <env.h>
+#include "env.h"
 
 typedef struct box64context_s box64context_t;
 extern box64env_t box64env;
 extern box64env_t* cur_box64env;
 
-extern uintptr_t box64_pagesize;
+__attribute__((visibility("default"))) extern uintptr_t box64_pagesize;
 extern int box64_rdtsc;
 extern uint8_t box64_rdtsc_shift;
 extern int box64_is32bits;

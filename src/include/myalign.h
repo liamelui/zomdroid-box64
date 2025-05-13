@@ -1,6 +1,8 @@
 #ifndef __MY_ALIGN__H_
 #define __MY_ALIGN__H_
 #include <stdint.h>
+#include "bits/timespec.h"
+#include "signal.h"
 
 typedef struct x64_va_list_s {
    unsigned int gp_offset;

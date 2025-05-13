@@ -190,6 +190,7 @@ void openFTrace(int reopen)
 
 void printf_ftrace(int prefix, const char* fmt, ...)
 {
+    if (!ftrace) ftrace = stdout;
     if(ftrace_name) {
         int fd = fileno(ftrace);
         if(fd<0 || lseek(fd, 0, SEEK_CUR)==(off_t)-1) {

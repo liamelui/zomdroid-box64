@@ -1226,6 +1226,7 @@ void AddMainElfToLinkmap(elfheader_t* elf)
     lm->l_ld = GetDynamicSection(elf);
 }
 
+EXPORTDYN
 needed_libs_t* new_neededlib(int n)
 {
     needed_libs_t* ret = (needed_libs_t*)box_calloc(1, sizeof(needed_libs_t));
@@ -1235,6 +1236,8 @@ needed_libs_t* new_neededlib(int n)
     ret->names = (char**)box_calloc(n, sizeof(char*));
     return ret;
 }
+
+EXPORTDYN
 void free_neededlib(needed_libs_t* needed)
 {
     if(!needed)

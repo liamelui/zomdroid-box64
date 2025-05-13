@@ -143,6 +143,8 @@ void AppendList(path_collection_t* collection, const char* List, int folder)
     }
 
 }
+
+EXPORTDYN
 void PrependList(path_collection_t* collection, const char* List, int folder)
 {
     if(!List)

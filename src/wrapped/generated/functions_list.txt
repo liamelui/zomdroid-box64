@@ -241,6 +241,7 @@
 #() IFpi
 #() IFpu
 #() IFpd
+#() IFpp
 #() CFip
 #() CFCi
 #() CFui
@@ -500,6 +501,7 @@
 #() vFpHi
 #() vFSpL
 #() cFpdp
+#() cFppp
 #() wFppp
 #() iFEiw
 #() iFEip
@@ -619,6 +621,7 @@
 #() IFpIi
 #() IFppi
 #() IFppI
+#() IFppp
 #() IFSIi
 #() CFipp
 #() CFuUu
@@ -645,6 +648,7 @@
 #() uFuNN
 #() uFpii
 #() uFpiu
+#() uFpif
 #() uFpip
 #() uFpCi
 #() uFpWi
@@ -656,10 +660,15 @@
 #() uFpuU
 #() uFpuL
 #() uFpup
+#() uFpUU
+#() uFpUf
+#() uFpfi
 #() uFpfu
+#() uFpff
 #() uFpli
 #() uFplu
 #() uFpLu
+#() uFpLf
 #() uFpLL
 #() uFpLp
 #() uFppi
@@ -813,6 +822,7 @@
 #() pFpLp
 #() pFppc
 #() pFppi
+#() pFppI
 #() pFppu
 #() pFppf
 #() pFppd
@@ -1009,15 +1019,26 @@
 #() vFpplp
 #() vFppLL
 #() vFppLp
+#() vFpppc
+#() vFpppw
 #() vFpppi
+#() vFpppI
+#() vFpppC
+#() vFpppW
 #() vFpppu
+#() vFpppf
 #() vFpppd
 #() vFpppl
 #() vFpppL
 #() vFpppp
+#() vFpppA
 #() vFHHpi
 #() cFpiii
 #() cFpipp
+#() cFpppp
+#() cFpppA
+#() wFpppp
+#() wFpppA
 #() iFEiip
 #() iFEiiN
 #() iFEipp
@@ -1205,6 +1226,7 @@
 #() iFpppu
 #() iFpppL
 #() iFpppp
+#() iFpppA
 #() iFpONN
 #() iFSpii
 #() iFSpiL
@@ -1215,11 +1237,17 @@
 #() IFpIip
 #() IFppii
 #() IFppip
+#() IFpppp
+#() IFpppA
 #() IFSIii
 #() CFuuff
 #() CFpLLi
 #() CFppip
+#() CFpppp
+#() CFpppA
 #() CFbupp
+#() WFpppp
+#() WFpppA
 #() uFEipp
 #() uFEupp
 #() uFEpup
@@ -1228,24 +1256,36 @@
 #() uFiiuu
 #() uFifff
 #() uFuuuu
+#() uFuupp
 #() uFuppd
 #() uFLppp
 #() uFpiip
+#() uFpiui
+#() uFpiff
+#() uFpipi
 #() uFpipu
 #() uFpipL
 #() uFpipp
 #() uFpCCC
+#() uFpuiu
+#() uFpuip
 #() uFpuup
 #() uFpupi
 #() uFpupu
 #() uFpupp
 #() uFpubp
+#() uFpUUi
+#() uFpfff
 #() uFplup
+#() uFpLfC
+#() uFpLff
 #() uFppii
 #() uFppiu
 #() uFppip
 #() uFppuu
 #() uFppup
+#() uFppfC
+#() uFppff
 #() uFpplp
 #() uFppLp
 #() uFpppi
@@ -1269,7 +1309,10 @@
 #() UFbuuW
 #() UFbuuu
 #() UFbuup
+#() fFpppp
+#() fFpppA
 #() dFpppp
+#() dFpppA
 #() lFEipV
 #() lFEpip
 #() lFEppL
@@ -1425,9 +1468,11 @@
 #() pFppLL
 #() pFppLp
 #() pFpppi
+#() pFpppC
 #() pFpppu
 #() pFpppL
 #() pFpppp
+#() pFpppA
 #() pFpONN
 #() pFpbii
 #() pFSppi
@@ -1650,6 +1695,11 @@
 #() vFppppu
 #() vFppppL
 #() vFppppp
+#() vFppppA
+#() cFppppp
+#() cFppppA
+#() wFppppp
+#() wFppppA
 #() iFEiipp
 #() iFEiipV
 #() iFEiipA
@@ -1822,10 +1872,17 @@
 #() iFppppl
 #() iFppppL
 #() iFppppp
+#() iFppppA
 #() iFpSipp
 #() iFpSuif
 #() iFSppLp
 #() IFppIII
+#() IFppppp
+#() IFppppA
+#() CFppppp
+#() CFppppA
+#() WFppppp
+#() WFppppA
 #() uFEippp
 #() uFEpipp
 #() uFEpupp
@@ -1837,20 +1894,29 @@
 #() uFipLpp
 #() uFuiiii
 #() uFLpppL
+#() uFpiuup
+#() uFpiffi
+#() uFpippi
+#() uFpippp
 #() uFpCCCC
 #() uFpWuip
 #() uFpuuui
 #() uFpuuuu
 #() uFpuupp
+#() uFpuUpi
 #() uFpupuu
 #() uFpuppp
+#() uFppiii
 #() uFppipp
 #() uFppuup
+#() uFppupu
 #() uFppupp
 #() uFpplip
 #() uFpplpp
 #() uFppLpp
 #() uFpppip
+#() uFpppuu
+#() uFppppi
 #() uFppppL
 #() uFppppp
 #() uFbuuWW
@@ -1866,6 +1932,10 @@
 #() UFbuWWp
 #() UFbuuww
 #() UFbuuup
+#() fFppppp
+#() fFppppA
+#() dFppppp
+#() dFppppA
 #() lFEippL
 #() lFEuipp
 #() lFEppLL
@@ -1996,6 +2066,7 @@
 #() pFppppu
 #() pFppppL
 #() pFppppp
+#() pFppppA
 #() pFbupii
 #() pFbpuii
 #() iWEpiup
@@ -2348,7 +2419,11 @@
 #() uFuuuuuu
 #() uFupuufp
 #() uFuppppp
+#() uFpiipip
 #() uFpiuppu
+#() uFpipppi
+#() uFpipppu
+#() uFpipppp
 #() uFpWuipp
 #() uFpWuuCp
 #() uFpuippp
@@ -2356,11 +2431,13 @@
 #() uFpuuupp
 #() uFpuuppp
 #() uFpupupu
+#() uFpuppip
 #() uFpupppp
 #() uFppuuup
 #() uFppuupu
 #() uFppLpLp
 #() uFppLppL
+#() uFpppipu
 #() uFpppppi
 #() uFpppppp
 #() uFbippup
@@ -2710,9 +2787,11 @@
 #() uFiiiuuuu
 #() uFuippppp
 #() uFpippppp
+#() uFpuiuppp
 #() uFpuuuupp
 #() uFpuuuppp
 #() uFpuupppp
+#() uFpffiipp
 #() uFppiuppi
 #() uFppiuppp
 #() uFppuiupu
@@ -2956,12 +3035,14 @@
 #() uFuipppppp
 #() uFuupuuiuf
 #() uFulpppppp
+#() uFpipipppp
 #() uFpuupupuu
 #() uFpupuuuCp
 #() uFppuuuupp
 #() uFppuuuppu
 #() uFppuppppp
 #() uFpppppupp
+#() uFpppppppi
 #() uFbWWWWWWp
 #() UFbCuwwWWu
 #() UFbCuuuCup
@@ -3118,7 +3199,9 @@
 #() uFEipuppppp
 #() uFEpppufppp
 #() uFuulpiuiuf
+#() uFpipippppp
 #() uFpuupuppuu
+#() uFpffffffff
 #() uFppLpLuppp
 #() uFppppppppp
 #() UFbCuWCCuuu
@@ -3418,6 +3501,7 @@
 #!defined(STATICBUILD) lFpLpdddddd
 #() vFEv -> vFE
 #() iFEv -> iFE
+#() uFpv -> uFp
 #() lFEv -> lFE
 #() pFEv -> pFE
 #() iFEvpp -> iFEpp
@@ -3427,6 +3511,7 @@
 #() iFEpuvvppp -> iFEpuppp
 wrappedalure:
 wrappedalut:
+wrappedandroidshmem:
 wrappedanl:
 wrappedatk:
 - vFp:
@@ -3690,6 +3775,28 @@ wrappedflac:
   - FLAC__metadata_chain_read_with_callbacks
 - iFpppppppppp:
   - FLAC__stream_decoder_init_stream
+wrappedfmod:
+- uFpi:
+  - FMOD_DSP_SetBypass
+- uFpp:
+  - FMOD_ChannelGroup_SetCallback
+  - FMOD_Channel_SetCallback
+  - FMOD_System_Set3DRolloffCallback
+- uFpip:
+  - FMOD_ChannelGroup_AddDSP
+- uFppu:
+  - FMOD_System_SetCallback
+- uFppp:
+  - FMOD_System_CreateDSP
+- uFuupp:
+  - FMOD_Debug_Initialize
+- uFppppp:
+  - FMOD_System_AttachFileSystem
+- uFpipppu:
+  - FMOD_Memory_Initialize
+- uFpppppppi:
+  - FMOD_System_SetFileSystem
+wrappedfmodstudio:
 wrappedfontconfig:
 - pFpV:
   - FcObjectSetBuild
@@ -6270,4 +6377,5 @@ wrappedxslt:
   - xsltSetSecurityPrefs
 - iFpppp:
   - xsltRegisterExtFunction
+wrappedzomdroidlinker:
 wrappedzstd:

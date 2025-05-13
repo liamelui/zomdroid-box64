@@ -1,9 +1,5 @@
 #include "box64version.h"
-#ifdef NOGIT
 #define GITREV "nogit"
-#else
-#include "git_head.h"
-#endif
 
 #ifndef __BUILD_INFO_H__
 #define __BUILD_INFO_H__

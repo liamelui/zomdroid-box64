@@ -207,7 +207,7 @@ box64context_t *NewBox64Context(int argc)
 {
 #ifdef BUILD_DYNAMIC
     if(my_context) {
-        ++my_context->count;
+        //++my_context->count;
         return my_context;
     }
 #endif
